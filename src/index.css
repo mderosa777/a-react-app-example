@@ -14,12 +14,12 @@ body {
 }
 
 .App-header {
-  background-color: #222;
+  background-color: yellow;
   height: 150px;
   line-height: 150px;
   font-size: 300%;
   padding: 20px;
-  color: white;
+  color: black;
 }
 
 .App-title {
@@ -29,9 +29,16 @@ body {
 .App-intro {
   font-size: 150%;
   padding: 0 10%;
+  color: green;
+  font-family: 'East Sea Dokdo', cursive;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.video {
+  border: blue;
+
 }
